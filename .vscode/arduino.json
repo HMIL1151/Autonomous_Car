@@ -1,0 +1,4 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "3. Software\\Motor_Control\\Motor_Control.ino"
+}
