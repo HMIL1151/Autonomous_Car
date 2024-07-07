@@ -16,6 +16,12 @@ int Right_CCW_Pin = 6;      //IN4
 
 void setup() {
   //Nothing needed in the setup function
+  pinMode(Left_Speed_Pin, OUTPUT);
+  pinMode(Right_Speed_Pin, OUTPUT);
+  pinMode(Left_CW_Pin, OUTPUT);
+  pinMode(Left_CCW_Pin, OUTPUT);
+  pinMode(Right_CW_Pin, OUTPUT);
+  pinMode(Right_CCW_Pin, OUTPUT);
 }
 
 void loop() {
