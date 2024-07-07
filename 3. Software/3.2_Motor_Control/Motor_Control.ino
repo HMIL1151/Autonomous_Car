@@ -15,7 +15,7 @@ int Right_CW_Pin = 7;       //IN3
 int Right_CCW_Pin = 6;      //IN4
 
 void setup() {
-  //Nothing needed in the setup function
+  //Set Pin Modes to Output or Input
   pinMode(Left_Speed_Pin, OUTPUT);
   pinMode(Right_Speed_Pin, OUTPUT);
   pinMode(Left_CW_Pin, OUTPUT);

@@ -9,6 +9,8 @@ int echoPin = 4; // Echo pin of the ultrasonic sensor
 
 void setup() {
   Serial.begin(9600); // Initialize serial communication for debugging
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
 }
 
 void loop() {

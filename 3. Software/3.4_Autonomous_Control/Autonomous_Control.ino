@@ -19,7 +19,16 @@ int trigPin = 3;            // Trigger pin
 int echoPin = 4;            // Echo pin
 
 void setup() {
-    //Nothing needed in the setup function
+    //Set Pin Modes to Output or Input
+    pinMode(Left_Speed_Pin, OUTPUT);
+    pinMode(Right_Speed_Pin, OUTPUT);
+    pinMode(Left_CW_Pin, OUTPUT);
+    pinMode(Left_CCW_Pin, OUTPUT);
+    pinMode(Right_CW_Pin, OUTPUT);
+    pinMode(Right_CCW_Pin, OUTPUT);
+
+    pinMode(trigPin, OUTPUT);
+    pinMode(echoPin, INPUT);
 }
 
 void loop() {
